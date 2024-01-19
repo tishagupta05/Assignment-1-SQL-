@@ -1,0 +1,39 @@
+--create database ASSIGNMENT
+--1.
+--SELECT count([gender])
+--FROM [dbo].[Task 1 for SQL DML session]
+--WHERE [region] = 'SOUTHWEST'AND [gender] = 'MALE'
+--2.
+--select * from [dbo].[Task 1 for SQL DML session]
+--where [bmi] >= 35 and [bmi] <=  45
+--3.
+--select min([bloodpressure]) as 'MinBP', max([bloodpressure]) as 'MaxBP'
+--from [dbo].[Task 1 for SQL DML session]
+--where [diabetic] = 1 and [smoker] = 'yes'
+--4.
+--select distinct[PatientID] from [dbo].[Task 1 for SQL DML session]
+--where [region] <> 'southwest'
+--5.
+--select round(sum([claim]),2) as 'TotalClaim' from [dbo].[Task 1 for SQL DML session]
+--where [gender] = 'male' and [smoker] = 'yes'
+--6.
+--select * from [dbo].[Task 1 for SQL DML session]
+----where [region] = 'south'
+--7.
+--select count(*) as 'TotalPatient'
+--from [dbo].[Task 1 for SQL DML session]
+----where [bloodpressure] >= 90 and [bloodpressure] <= 120 
+--8.
+--select count(*) as 'TotalPatient'
+--from [dbo].[Task 1 for SQL DML session]
+--where [age] > 17 and [bloodpressure] >= 80 + ([age] * 2) and [bloodpressure] <= 100 + ([age] * 2)
+--9.
+--select round(avg([claim]),2) as 'claimAmt' from [dbo].[Task 1 for SQL DML session]
+----where [gender] = 'female' and [smoker] = 'no' and [diabetic] = 0
+--10.
+--update [dbo].[Task 1 for SQL DML session]
+--set [claim] = 5000
+--where [PatientID] = 1234
+--11.
+--delete from [dbo].[Task 1 for SQL DML session]
+--where [smoker] = 'yes' and [children] = 0
